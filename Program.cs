@@ -36,8 +36,8 @@ namespace _10_08_2021
              double d = double.Parse(Console.ReadLine());
              if (!(a < b && b < c && c < d))
              {
-                 double sum1 = Math.Min(a, b), sum2 = Math.Min(c, d), sum3 = Math.Min(sum1, sum2);
-                 Console.WriteLine($"{sum3}");
+                 double min1 = Math.Min(a, b), min2 = Math.Min(c, d), min3 = Math.Min(sum1, sum2);
+                 Console.WriteLine($"{min3}");
              } 
              else if (a == b && b == c   && c == d)
              {
