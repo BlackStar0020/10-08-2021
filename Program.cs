@@ -20,7 +20,7 @@ namespace _10_08_2021
              }
              else if (a > 1000)
              {
-                 double sk = (a * 5) / 100, stoimost5 = a - sk;
+                 double ск = (a * 5) / 100, stoimost5 = a - сk;
                  Console.WriteLine($"{stoimost5} ");
 
              }else
