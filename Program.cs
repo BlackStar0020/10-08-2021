@@ -12,7 +12,7 @@ namespace _10_08_2021
         {
                    ///////////    1
             double a = double.Parse(Console.ReadLine());
-            if (a > 500 && a < 1000)
+            if (a > 500 && a <= 1000)
             {
                 double sk = (a * 3) / 100, stoimost3 = a - sk;
                 Console.WriteLine($"{stoimost3} ");
